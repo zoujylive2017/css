@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        .hbcwwdjod{
+            height:1280px;
+            background:url("IMG_1469.JPG") no-repeat;
+            background-size: 100%;}
+        .hbcwwdjod2{
+            height:300px;background:url("IMG_1405.JPG") no-repeat center;
+            background-size: 500px 300px; }
+    </style>
+</head>
+<body>
+
+<div class="hbcwwdjod"></div>
+<div class="hbcwwdjod2"></div>
+
+
+
+</body>
+</html>
