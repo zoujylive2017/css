@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        html,body{
+            height: 100%;
+            background: -webkit-linear-gradient(#1C2717, #A3A127); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(#1C2717, #A3A127); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(#1C2717, #A3A127); /* Firefox 3.6 - 15 */
+            background: linear-gradient(#1C2717, #A3A127); /* 标准的语法 */
+            margin: 0;
+            overflow: hidden;
+        }
+        #wrap{
+            background: rgba(255, 255, 255, 0.05) none repeat scroll 0 0;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 5px;
+            height: 200px;
+            width: 400px;
+            margin: 200px auto 0;
+            box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.2) inset;
+            position: relative;
+        }
+        #wrap:before{
+            background: -webkit-linear-gradient(  left, rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0)); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(right, rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0)); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(right, rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0)); /* Firefox 3.6 - 15 */
+            background: linear-gradient(top right, rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0)); /* 标准的语法 */
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 0;
+            position: absolute;
+            width: 400px;
+        }
+    </style>
+
+</head>
+<body>
+<div id="wrap"></div>
+</body>
+</html>
