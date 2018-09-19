@@ -1,0 +1,7 @@
+      <link rel="stylesheet"  id="cssId"/>
+			var x=2;
+			if(x=='1'){
+				document.getElementById('cssId').setAttribute('href','./static/common.css')
+			}else if(x=='2'){
+				document.getElementById('cssId').setAttribute('href','./static/common2.css')
+			}
