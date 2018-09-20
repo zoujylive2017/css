@@ -1,0 +1,7 @@
+<svg class="icon" aria-hidden="true">
+	 <use :xlink:href="[item.img]"></use>//绑定data里面的数据需要加【】
+</svg>
+改变颜色
+#class名 path{
+  fill:颜色
+}
