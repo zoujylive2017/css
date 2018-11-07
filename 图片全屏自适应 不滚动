@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    name="viewport">
+    <title>测试页面</title>
+</head>
+<style>
+html,body {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    top:0;
+    z-index: -1; 
+    position: absolute;
+}
+
+.content img {
+    display: block;
+    outline: none;
+    border:0;
+    height: 100%;
+    width: 100%;
+}
+</style>
+<body>
+    <div class="content">
+        <img alt="评价成功" src="welcom.png">
+    </div>
+</body>
+</html>
